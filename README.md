@@ -1,12 +1,32 @@
 # DocuQuery: AI-Powered PDF Knowledge Assistant
 
-This is a Streamlit-based AI app that allows users to upload PDF documents and ask questions about their content. It uses Google PaLM for answering queries and HuggingFace for generating embeddings.
+**DocuQuery** is an intelligent PDF assistant built with Streamlit that allows users to upload one or multiple PDF documents and ask natural language questions. The application uses **Google PaLM 2 API** for advanced text generation and **HuggingFace embeddings** for semantic search. This tool is designed to extract knowledge from documents quickly and accurately using modern LLMs and vector-based search.
 
----
+-------
 
-## Setup Instructions
+## Features
 
-1. Clone the repository  
-2. Install dependencies:  
-   ```bash
-3. pip install -r requirements.txt
+- Upload single or multiple PDF files
+-  Ask questions in natural language
+- Get precise answers based on document content
+- Uses FAISS for fast semantic search
+- Clean and responsive web UI using Streamlit
+
+----
+
+## Tech Stack
+
+| Component       | Technology                    |
+|----------------|-------------------------------|
+| Frontend       | Streamlit                     |
+| Backend        | LangChain + Python            |
+| Embeddings     | HuggingFace (free)            |
+| LLM            | Google PaLM 2 (text-bison-001)|
+| Vector Store   | FAISS                         |
+| PDF Processing | PyPDF2                        |
+| Environment    | Python virtualenv (.venv)     |
+
+-----
+
+## Folder Structure
+
